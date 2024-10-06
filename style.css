@@ -1,0 +1,52 @@
+
+h1 {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    text-decoration: underline;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+/* format fields one under another */
+label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+/* length of the fields */
+input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    width: 20%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px
+}
+
+#output, .output {
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+}
